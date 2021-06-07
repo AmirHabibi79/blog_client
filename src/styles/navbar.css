@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(164, 255, 213);
+    box-shadow: 0px 0px 15px 0px rgba(191, 250, 222, .9);
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.links a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: all .3s ease;
+}
+.links a:hover{
+    color: gray;
+}

@@ -1,0 +1,48 @@
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin: 10px 0px;
+}
+.input-group input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(58, 212, 250);
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.input-group label{
+    position: absolute;
+    top: 5px;
+    color: rgb(58, 212, 250);
+    transition: all .3s ease;
+}
+.input-group textarea{
+    color: black;
+    border-color: rgb(58, 212, 250);
+    direction: rtl;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    resize: none;
+    height: 100px;
+    outline: none;
+}
+.active{
+    top: -10px !important;
+    font-size: 12px;
+}
+.error{
+    background: rgba(255, 164, 164, 0.336);
+    color: rgb(255, 38, 38);
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}

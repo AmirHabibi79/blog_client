@@ -1,0 +1,53 @@
+.pro-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.btns button{
+    margin-left: 10px;
+}
+.pro-post{
+    margin-top: 20px;
+    direction: rtl;
+    padding:0 10px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btns-action{
+    margin: 10px 0;
+}
+.btns-action button{
+    margin:0 10px;
+}
+@media screen and (max-width:690px){
+    .btns{
+        margin:0;
+    }
+    .pro-nav h1{
+        font-size: 16px;
+    }
+    .btn{
+        padding: 5px;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:420px){
+    
+    .pro-nav h1{
+        font-size: 10px;
+    }
+    .btn{
+        padding: 5px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+    .btns button{
+        margin-left: 5px;
+    }
+}
